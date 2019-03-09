@@ -1,0 +1,64 @@
+body{
+  border: 3px;
+  padding: 2px;
+  background-color:silver;
+  background-image: url("photo2.jpg");
+}
+.image{
+  padding: 5px;
+  border:navy green;
+}
+img { max-width: 100%; }
+h1{
+  color: blue;
+  text-align: center;
+}
+h2{
+  color: red;
+  margin:5px;
+}
+h3{
+  color: navy green;
+}
+.prj{
+    width: 90%;
+    background: navy blue;
+    margin : 15px;
+    overflow: hidden;
+    padding:10px;
+    border: solid
+}
+.prj ul{
+  border: navy green;
+  padding: 10px;
+  text-align: center;
+}
+.prj ul li{
+  margin: 40px 40px 1px 50px;
+  height:150px;
+  list-style: none;
+  float : left;
+  text-align: center;
+  background: silver;
+  width: 20%;
+  border:solid;
+  }
+a:link {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: cyan;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
